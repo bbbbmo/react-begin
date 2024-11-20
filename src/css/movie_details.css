@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  background-color: #dda0dd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.detail {
+  width: 1000px;
+  height: 95%;
+  border-radius: 35px;
+  background-color: #141417;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Century Gothic, sans-serif;
+  box-shadow: 8px 8px 25px black;
+}
+
+.image {
+  margin-top: 80px;
+  width: 400px;
+  height: 480px;
+}
+
+.title {
+  margin-top: 20px;
+}
+
+.description {
+  width: 800px;
+}
